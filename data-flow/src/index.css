@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 0px auto;
+  gap: 15px
+}
+
+.header ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.form-wrapper form {
+  max-width: 600px;
+  padding: 15px;
+}
+
+.form-wrapper form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.form-wrapper form div input {
+  padding: 10px;
+}
+
+.form-wrapper form div textarea {
+  padding: 10px;
+}
+
+.form-wrapper form div label {
+  font-size: 20px;
+}
+
+.form-wrapper form .btn-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  max-width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-wrapper form div input[type="color"] {
+  padding: 0px;
+  width: 50%;
+}
+
+input,
+textarea {
+  font-size: 20px;
+}
